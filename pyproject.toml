@@ -1,0 +1,16 @@
+[project]
+name = "SM-SOC"
+version = "2.0.0"
+description = "安全运营中心：告警接入、事件研判、剧本与工单闭环"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 200
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
