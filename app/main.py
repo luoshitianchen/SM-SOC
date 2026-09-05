@@ -13,7 +13,7 @@ from pydantic import BaseModel, Field
 from app import base
 
 SERVICE = "sm-soc"
-VERSION = "2.0.0"
+VERSION = "3.0.0"
 NAME = "SM SOC"
 DESCRIPTION = "安全运营中心：告警接入、事件研判、安全剧本与工单闭环"
 PORT = 8460
